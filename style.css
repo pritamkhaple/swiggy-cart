@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    max-width: 1200px;
+    border: 1px solid black;
+    position: relative;
+    left: 20%;
+    right: 15%;
+    height: 100vh;
+   
+}
+
+/* Delivery Address */
+
+.delivery-address{
+    height: 200px;
+    width: 700px;
+    border: 1px solid #e9ecee;
+    /* border: 1px solid red; */
+    /* background-color: white; */
+}
+
+.delivery1{
+    margin: 17px 0px 0px 23px;
+}
+
+.delivery1 span{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.delivery1 i{
+    margin-left: 25px;
+}
+
+.span2{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fc8019;
+    text-transform: uppercase;
+    left: 55%;
+    position: relative;
+}
+
+.delivery2 {
+    font-size: 0.8rem;
+    margin: 17px 0px 0px 23px;
+}
+
+.delivery2 p{
+color: #93959f;
+line-height: 18px;
+width: 20vw;
+}
+
+.min{
+    font-size: .7rem;
+    margin: 12px 0px 0px 0px;
+}
+
+.symbol{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #282c3f;
+    box-shadow: 0 3px 5px 0 rgba(40,44,63,.4);
+    top: 34px;
+    left: -30px;
+}
+
+.symbol span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Payment Method */
+
+.payement{
+    height: 600px;
+    width: 700px;
+    border: 1px solid #e9ecee;
+}
+
+.payement2{
+    display: flex;
+}
+
+.pay-span1{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.pay-left{
+    height: 500px;
+    width: 200px;
+    /* border: 1px solid blue; */
+    background-color: #edf1f7;
+}
+
+.upi-img{
+    height: 14px;
+    width: 16px;
+    border-radius: 2px;
+}
+
+.pay-ul{
+    cursor: pointer;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.pay-ul li{
+    margin: 63px 0px 0px 10px;
+    color: #686b78;
+}
+
+.pay-ul li i,img{
+    margin-right: 13px;
+}
+
+.upi{
+    background-color: white;
+    height: 41px;
+    width: 202px;
+    border-top: 5px solid white;
+}
+
+.pay-right{
+    border: 1px solid violet;
+    height: 500px;
+    width: 100%
+}
+
+.payr1{
+    margin: 8px 0px 0px 26px;
+}
+
+.payr1 img{
+    height: 30px;
+    width: auto;
+}
+
+.payr1-span2{
+    display: inline-block;
+    color: #686b78;
+    margin-left: 0px;
+    font-size: .7rem;
+    max-width: 228px;
+}
+
+.payr1 a{
+    text-decoration: none;
+    color: #5d8ed5;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: .7rem;
+    margin-left: 49px;
+}
+
+.payr1-span1{
+    top: 5px;
+    position: relative;
+}
+
+
+
+
+.div1{
+    display: flex;
+    border: 1px solid red;
+
+}
+
+.name{
+    margin: 5px 14px 8px 13px;
+}
