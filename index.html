@@ -1,77 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Swiggy Checkout</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="delivery-address">
-            <div class="delivery1">
-                <span>Delivery Address</span>
-                <i class="fa-solid fa-circle-check" style="color: #60b246;"></i>
-                <span class="span2">Change</span>
-            </div>
-            <div class="delivery2">
-                <h3>WORK</h3>
-                <p>prozone, Chatrapati Sambhajinagr MH20, Chatrapati, All India Radio Staff Quarters, Vishnu Nagar, Sindhi Colony, Aurangabad, Maharashtra 431001, India</p>
-                <h3 class="min">21 MINS</h3>
-            </div>
-            <div class="symbol">
-                <span><i class="fa-solid fa-location-crosshairs" style="color: #ffffff;"></i></span>
-            </div>
+      <div class="delivery-address">
+        <div class="delivery1">
+          <span>Delivery Address</span>
+          <i class="fa-solid fa-circle-check" style="color: #60b246"></i>
+          <span class="span2">Change</span>
         </div>
-
-        <div class="payement">
-            <div class="payement1">
-                <span class="pay-span1">Choose payement method</span>
-            </div>
-            <div class="payement2">
-                <div class="pay-left">
-                    <ul class="pay-ul">
-                        <li><i class="fa-solid fa-wallet" style="color: #686b78;"></i>Wallet</li>
-                        <li class="upi"><img src="/img/upi.png" alt="" class="upi-img"> UPI</li>
-                        <li><i class="fa-solid fa-credit-card" style="color: #686b78;"></i>Sodexo</li>
-                        <li><i class="fa-solid fa-credit-card" style="color: #686b78;"></i>Netbanking</li>
-                        <li><i class="fa-solid fa-credit-card" style="color: #686b78;"></i>Credit & Debit cards</li>
-                    </ul>
-                </div>
-                <div class="pay-right">
-                    <div class="payr1">
-                        <span class="payr1-span1"><img src="/img/upi-icon.svg" alt=""></span>
-                        <span class="payr1-span2">Transfer money from your bank account using UPI with your registered VPA</span>
-                        <a href="#">HOW IT WORKS</a>
-                    </div>
-                    <div class="payr2">
-                        <ul>
-                            <li>We accept</li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
+        <div class="delivery2">
+          <h3>WORK</h3>
+          <p>
+            prozone, Chatrapati Sambhajinagr MH20, Chatrapati, All India Radio
+            Staff Quarters, Vishnu Nagar, Sindhi Colony, Aurangabad, Maharashtra
+            431001, India
+          </p>
+          <h3 class="min">21 MINS</h3>
         </div>
+        <div class="symbol">
+          <span
+            ><i
+              class="fa-solid fa-location-crosshairs"
+              style="color: #ffffff"
+            ></i
+          ></span>
+        </div>
+      </div>
 
-        <div class="order-bill">
-            <!-- <div class="div1">
+      <div class="payement">
+        <div class="payement1">
+          <span class="pay-span1">Choose payement method</span>
+        </div>
+        <div class="payement2">
+          <div class="pay-left">
+            <ul class="pay-ul">
+              <li>
+                <i class="fa-solid fa-wallet" style="color: #686b78"></i>Wallet
+              </li>
+              <li class="upi">
+                <img src="/img/upi.png" alt="" class="upi-img" /> UPI
+              </li>
+              <li>
+                <i class="fa-solid fa-credit-card" style="color: #686b78"></i
+                >Sodexo
+              </li>
+              <li>
+                <i class="fa-solid fa-credit-card" style="color: #686b78"></i
+                >Netbanking
+              </li>
+              <li>
+                <i class="fa-solid fa-credit-card" style="color: #686b78"></i
+                >Credit & Debit cards
+              </li>
+            </ul>
+          </div>
+          <div class="pay-right">
+            <div class="payr1">
+              <span class="payr1-span1"
+                ><img src="/img/upi-icon.svg" alt=""
+              /></span>
+              <span class="payr1-span2"
+                >Transfer money from your bank account using UPI with your
+                registered VPA</span
+              >
+              <a href="#">HOW IT WORKS</a>
+            </div>
+            <div class="payr2">
+              <ul>
+                <div>We accept</div>
+                <li><img src="/img/Gpay.png" alt="" /></li>
+                <li><img src="/img/PhonePe.png" alt="" /></li>
+                <li><img src="/img/BHIM_.png" alt="" /></li>
+                <!-- <li></li> -->
+              </ul>
+            </div>
+            <div class="payr3">
+                <div class="payr3-1">Pay via New VPA</div>
+                <div class="payr3-2">
+                  You must have a Virtual Payment Address
+                </div>
+                <div class="payr3-3">
+                  <input type="text" name="" value="" placeholder="Enter VPA" />
+                </div>
+                <div class="payr3-4">
+                  <img src="/img/checkbox.png" class="checkbx" alt="">
+                    <span>Securely save this VPA for a faster checkout next time.</span>
+                </div>
+                <div class="payr3-5">Verify and Pay ₹271</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="order-bill">
+        <!-- <div class="div1">
                 <img src="/img/restr-img.jpg" alt="">
                 <div class="name">
                     <h3>Safa Restaurant</h3>
                     <span>Shahgunj</span>
                 </div>
             </div> -->
-        </div>
+      </div>
 
-
-        <div class="review"></div>
+      <div class="review"></div>
     </div>
-</body>
+  </body>
 </html>

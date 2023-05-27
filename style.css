@@ -6,12 +6,13 @@
 
 .container{
     max-width: 1200px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     position: relative;
-    left: 20%;
-    right: 15%;
+    left: 15%;
+    /* right: 25%; */
+    margin: auto auto;
     height: 100vh;
-   
+    width: 100%;
 }
 
 /* Delivery Address */
@@ -90,6 +91,10 @@ width: 20vw;
     border: 1px solid #e9ecee;
 }
 
+.payement1{
+    margin: 25px 0px;
+}
+
 .payement2{
     display: flex;
 }
@@ -136,7 +141,7 @@ width: 20vw;
 }
 
 .pay-right{
-    border: 1px solid violet;
+    /* border: 1px solid violet; */
     height: 500px;
     width: 100%
 }
@@ -170,6 +175,92 @@ width: 20vw;
 .payr1-span1{
     top: 5px;
     position: relative;
+}
+
+.payr2 ul{
+    display: flex;
+    list-style: none;
+    margin: 18px 0px 0px 29px;
+}
+
+.payr2 ul img{
+    height: 20px;
+    width: auto;
+}
+
+.payr2 ul li{
+    margin: 0px 1px 0px 0px;
+    
+}
+
+.payr2 ul div{
+    margin: 4px;
+    color: #7e808c;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.payr2{
+    border-bottom: 1px solid #282c3f;
+    padding-bottom: 24px;
+}
+
+.payr3{
+    margin: 0px 0px 0px 34px;
+}
+
+.payr3-1{
+    color: #282c3f;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-top: 17px;
+}
+
+.payr3-2{
+    font-size: .8rem;
+    color: #686b78;
+    margin-top: 5px;
+}
+
+.payr3-3{
+    margin-top: 17px;
+    margin-bottom: 10px;
+}
+
+.payr3-3 input{
+    height: 50px;
+    width: 60%;
+    border: 1px solid #d4d5d9;
+    border-radius: 5px;
+}
+
+.checkbx{
+    height: 24px;
+    width: auto;
+}
+
+.payr3-4 span{
+    font-size: .9rem;
+    color: #3d4152;
+    top: -5px;
+    position: relative;
+}
+
+.payr3-4{
+    margin: 18px 0px 17px 0px;
+}
+
+.payr3-5{
+    border: 1px solid #60B246;
+    height: 50px;
+    width: 60%;
+    text-align: center;
+    background-color: #60B246;
+    color: white;
+    font-weight: 600;
+    line-height: 45px;
+    border-radius: 5px;
 }
 
 
