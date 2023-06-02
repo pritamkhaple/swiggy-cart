@@ -265,13 +265,53 @@ width: 20vw;
 
 
 
+/* order details */
 
 .div1{
     display: flex;
-    border: 1px solid red;
+}
 
+.div1 img{
+    height: 7vh;
+    width: auto;
+}
+
+.name span{
+    color: #686b78;
 }
 
 .name{
-    margin: 5px 14px 8px 13px;
+    border-bottom: 1px solid black;
+}
+
+.div2{
+    display: flex;
+    margin-top: 3vh;
+}
+
+.div2 img{
+    height: 15px ;
+    width: auto;
+}
+
+.quantity{
+    border: 1px solid #d4d5d9;
+    width: 40px;
+    height: 15px;
+    padding: 2px;
+    padding-left: 11px;
+    color: #60b246;
+    font-weight: 600;
+}
+
+.dish{
+    margin-right: 25px;
+    font-weight: 600;
+    color: #7e808c;
+}
+
+.price{
+    margin-left: 20px;
+    font-weight: 600;
+    color: #7e808c;
 }
