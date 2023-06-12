@@ -1,0 +1,16 @@
+@media only screen and (max-width: 764px){
+
+    .nav{
+        max-width: 100%;
+    }
+
+    .container{
+        width: 100vw;
+        display: flex;
+
+    }
+    
+
+
+}
+

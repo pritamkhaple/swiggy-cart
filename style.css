@@ -245,6 +245,11 @@
     text-transform: uppercase;
     left: 55%;
     position: relative;
+    cursor: pointer;
+}
+
+.span2:hover{
+    border: 1px solid orangered;
 }
 
 .delivery2 {
@@ -281,6 +286,29 @@ width: 30%;
     transform: translate(-50%,-50%);
     color: #fff;
     font-size: 20px;
+}
+.symbol1 ::before{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #282c3f;
+    box-shadow: 0 3px 5px 0 rgba(40,44,63,.4);
+    top: 34px;
+    left: -635px;
+}
+
+.symbol1 span{
+    position: absolute;
+    top: 91%;
+    left: -1%;
+    width: 43px;
+    height: 38px;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 20px;
+    background-color: #282c3f;
+    box-shadow: 0 3px 12px 2px rgba(40,44,63,.4);
 }
 
 /* Payment Method */
@@ -462,6 +490,7 @@ width: 30%;
     font-weight: 600;
     line-height: 45px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 
@@ -503,6 +532,7 @@ width: 30%;
     padding-left: 11px;
     color: #60b246;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .dish{
@@ -545,6 +575,7 @@ width: 30%;
     height: 26px;
     width: 285px;
     color: #535665;
+    cursor: pointer;
 }
 
 .div4 img{
@@ -627,6 +658,13 @@ width: 30%;
 
 .rd4{
     font-weight: 600;
+    cursor: pointer;
+    width: 150px;
+}
+
+.rd4:hover{
+    border-bottom: 1px dotted red;
+    
 }
 
 .gapr{
